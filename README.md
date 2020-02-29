@@ -4,8 +4,8 @@
     - 适合NLP新入门同学阅读，建议一周内读完。备份地址：链接:https://pan.baidu.com/s/1RxYMyaVNtypuR0v9UabB7A  密码:5byy
 - [Kyunghyun Cho's Notes](https://arxiv.org/abs/1511.07916)
     - NLP+Deep Learning的入门资料，建议两周内读完。
-- [Speech and Language Processing](https://book.douban.com/subject/2403834/)
-    - 很全面也很长的教材，建议同学选读。
+- [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)
+    - 很全面也很长的教材，建议同学选读。[豆瓣地址](https://book.douban.com/subject/2403834/)
 - [复旦邱锡鹏教授的深度学习课程](https://nndl.github.io)
     - 如果希望学习/复习深度学习相关知识，建议看这门课的slides(PPT)。邱教授做NLP方向的研究，他的课会更偏向于Deep Learning在NLP中的应用。
 - [Deep Learning中文版](https://github.com/exacity/deeplearningbook-chinese)
