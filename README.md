@@ -17,6 +17,8 @@
 - [最全中文数据集检索地址](https://www.cluebenchmarks.com/dataSet_search.html)
 - [英中翻译IWLST数据集](https://wit3.fbk.eu/mt.php?release=2015-01)  :内含21W个句子对，是TED演讲的中英字幕。
 - **IELST中英数据集百度网盘:** 链接:https://pan.baidu.com/s/1jYT8hMG3uN4gtdDKekpygQ  密码:gcm6
+- [中文数据基准评测](https://github.com/CLUEbenchmark/CLUE)
+- [Chinese Bert-wwm](https://github.com/ymcui/Chinese-BERT-wwm)
 
 
 ## 工具篇
