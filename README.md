@@ -20,7 +20,22 @@
 - [中文数据基准评测](https://github.com/CLUEbenchmark/CLUE)
 - [Chinese Bert-wwm](https://github.com/ymcui/Chinese-BERT-wwm)
 
-### 情感分类数据集
+### 文本分类数据集GLUE
+- `CoLA(The Corpus of Linguistic Acceptability)`:纽约大学发布的有关语法的数据集，该任务主要是对一个给定句子，判定其是否语法正确，因此CoLA属于单个句子的文本二分类任务；
+- `SST(The Stanford Sentiment Treebank)`: 是斯坦福大学发布的一个情感分析数据集，主要针对电影评论来做情感分类，因此SST属于单个句子的文本分类任务（其中SST-2是二分类，SST-5是五分类，SST-5的情感极性区分的更细致）；
+- `MRPC(Microsoft Research Paraphrase Corpus)`:由微软发布，判断两个给定句子，是否具有相同的语义，属于句子对的文本二分类任务；
+- `STS-B(Semantic Textual Similarity Benchmark)`:主要是来自于历年SemEval中的一个任务（同时该数据集也包含在了SentEval），具体来说是用1到5的分数来表征两个句子的语义相似性，本质上是一个回归问题，但依然可以用分类的方法做，因此可以归类为句子对的文本五分类任务；
+- `QQP(Quora Question Pairs)`，是由Quora发布的两个句子是否语义一致的数据集，属于句子对的文本二分类任务；
+- `MNLI(Multi-Genre Natural Language Inference)`:同样由纽约大学发布，是一个文本蕴含的任务，在给定前提（Premise）下，需要判断假设（Hypothesis）是否成立，其中因为MNLI主打卖点是集合了许多不同领域风格的文本，因此又分为matched和mismatched两个版本的MNLI数据集，前者指训练集和测试集的数据来源一致，而后者指来源不一致。该任务属于句子对的文本三分类问题。
+- `QNLI（Question Natural Language Inference)`，其前身是SQuAD 1.0数据集，给定一个问句，需要判断给定文本中是否包含该问句的正确答案。属于句子对的文本二分类任务；
+- `RTE(Recognizing Textual Entailment)`:和MNLI类似，也是一个文本蕴含任务，不同的是MNLI是三分类，RTE只需要判断两个句子是否能够推断或对齐，属于句子对的文本二分类任务；
+- `WNLI(Winograd Natural Language Inference)`:也是一个文本蕴含任务，不过似乎GLUE上这个数据集还有些问题；
+
+### SquAD2.0
+- `SQuAD 2.0 `由斯坦福大学计算机系 Pranav Rajpurkar, Robin Jia, Percy Liang 三人在获得 ACL 2018 最佳论文奖的论文《Know What You Don't Know: Unanswerable Questions for SQuAD》（https://arxiv.org/abs/1806.03822）中提出。SQuAD 页面的主题色也从玫红色更换为了蓝紫色。
+- `指标`：精确匹配EM（Exact Match）和模糊匹配F1（F1-score）
+
+### 情感分类数据集-英文
 - [Yelp](https://www.kaggle.com/yelp-dataset/yelp-dataset)
     - 这个数据集有两个，一个是有5个评级标签的（Yelp-5），一个是正负情感标签的（Yelp-2）。
     - Yelp-5 每一类有 650000 条训练样本和 50000 条测试样本。
@@ -44,7 +59,8 @@
 - `SemEval-2014 Task 4``Semeval-2016 task 5`
 - `SentiHood`: Targeted aspect based sentiment analysis dataset for urban neighbourhoods
 
-
+### 自然语言推理数据集
+- [SNLI]
 
 ## 工具篇
 ### pytorch
